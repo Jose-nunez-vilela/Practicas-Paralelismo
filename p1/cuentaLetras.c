@@ -53,6 +53,8 @@ int main(int argc, char *argv[])
         MPI_Recv(&L, 1, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
     }
 
+
+    
     cadena = (char *) malloc(n * sizeof(char));
     inicializaCadena(cadena, n);
 
